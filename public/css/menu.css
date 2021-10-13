@@ -1,0 +1,40 @@
+.header_menu{
+background-color: grey;
+width: 100vw;
+display: flex;
+}
+.nav_header_menu{
+  display: flex;
+  width: 100%;
+}
+.ul_header_menu{
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  padding:0px;
+  margin: 0px;
+  height: 100%;
+}
+.img_header_menu{
+  height: 70px;
+}
+.right_nav_header_menu{
+width: 50%;
+}
+.left_nav_header_menu{
+width: 50%;
+display: flex;
+}
+body{
+  margin: 0px;
+}
+.li_header_menu{
+  list-style: none;
+  margin-right:20px;
+  display: flex;
+  align-items: center;
+}
+.H2_header_menu{
+  color: orange;
+  margin-left: 20px; 
+}
