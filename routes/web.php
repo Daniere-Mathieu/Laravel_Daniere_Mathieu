@@ -1,6 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\NavController;
+use App\Http\Controllers\BookController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -16,9 +19,16 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+/*
 Route::get('/test', function () {
     return view('test');
-});
+}); */
 Route::get('/jesais/test2', function () {
     return view('test2');
 });
+
+Route::get('/test', [NavController::class, 'nav']);
+
+//Route::get('/test', 'app\Http\Controllers\navControllers::nav');
+
+Route::get('/list', [BookController::class, 'bookList']);
