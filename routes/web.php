@@ -32,3 +32,7 @@ Route::get('/test', [NavController::class, 'nav']);
 //Route::get('/test', 'app\Http\Controllers\navControllers::nav');
 
 Route::get('/list', [BookController::class, 'bookList']);
+
+Route::get('/bookAdd', [BookController::class, 'bookAddPage']);
+
+Route::post('/booksAdd', [BookController::class, 'bookAdd']);

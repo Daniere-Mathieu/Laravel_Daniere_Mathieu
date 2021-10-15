@@ -18,6 +18,7 @@
             <li class="li_header_menu"><a href="/test">test</a></li>
             <li class="li_header_menu"><a href="/jesais/test2">test2</a></li>
             <li class="li_header_menu"><a href="/list">list</a></li>
+            <li class="li_header_menu"><a href="/bookAdd">ajouter des livres</a></li>
           </ul>
         </div>
       </nav>
