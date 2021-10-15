@@ -38,18 +38,49 @@ body{
   color: orange;
   margin-left: 20px;
 }
-table{
+.table_area{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.table_booklist{
   border: 3px solid darkblue;
     padding: 0px;
-    margin-left: 50px;
     border-spacing: 0px;
     border-collapse: collapse;
+    width: 60%;
 }
 .tr_th_table_booklist{
+  padding: 0px;
+  display: flex;
+    justify-content: space-between;
+    width: 100%;
 
 }
-.bg{
-  height: 20px;
-  width: 100%;
-  background-color: black;
+.th_tr_table_booklist{
+  padding: 0px;
+    border: 2px solid darkblue;
+    width: 33%;
+    border-collapse: collapse;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tr_td_table_booklist{
+  padding: 0px;
+  display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.td_tr_table_booklist{
+  padding: 0px;
+  border: 2px solid darkblue;
+  width:33%;
+  height: 25px;
+}
+.id{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
